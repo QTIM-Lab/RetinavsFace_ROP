@@ -17,4 +17,4 @@ Actions: train, eval, predict
 
 Data Directory: images with file structure of [train, val, test]/[faces, retinas]/[images]
 
-Model Path: (path and name of where to save model) OR (path and name of trained model
+Model Path: (path and name of location to save model) OR (path and name of trained model)
