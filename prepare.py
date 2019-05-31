@@ -67,8 +67,7 @@ def prepare(data_dir):
 
 
 if __name__ == "__main__":
-    action = sys.argv[1] # prepare, train, eval, predict
-    data_dir = sys.argv[2] # file of train, test data
-    dataloader_file = sys.argv[4] # model path to save or load
-    prepare(action, data_dir, csv_file, dataloader_file)
+    data_dir = sys.argv[1] # file of train, test data
+    dataloader_file = sys.argv[2] # model path to save or load
+    prepare(data_dir, dataloader_file)
 
